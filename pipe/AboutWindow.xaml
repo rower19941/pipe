@@ -1,0 +1,17 @@
+﻿<Window x:Class="pipe.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="О программе" Height="348.496" Width="301.73" ResizeMode="NoResize">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="143*"/>
+            <ColumnDefinition Width="147*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="GG" Source="resources\SPbGTI.gif" Margin="75,10,68,85" Grid.ColumnSpan="2"/>
+        <Label Margin="75,0,54,20" Grid.ColumnSpan="2" Height="60" VerticalAlignment="Bottom">
+            <TextBlock x:Name="LabelAbout" TextWrapping="Wrap" TextAlignment="Center">
+            Коваль В.И., Рогов А.Ю. Технологический Институт 2016г &#169;
+            </TextBlock>
+        </Label>
+    </Grid>
+</Window>
